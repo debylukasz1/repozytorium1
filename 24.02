@@ -1,0 +1,51 @@
+//#zadanie1//
+
+import math as m
+print(m.exp(10))
+print(m.sqrt(m.log(5+m.sin(8)**2)))
+print(m.floor(3.55))
+print(m.ceil(4.80))
+
+//#zadanie2//
+
+imie='ŁUKASZ'
+nazwisko='DĘBY'
+print(imie.capitalize()+" " + nazwisko.capitalize())
+
+//#zadanie3//
+
+studia='go go go'
+print(studia.count("go"))
+
+//#zadanie4//
+
+imie='Lukas'
+print(imie[0]+" " +imie[4])
+
+//#zadanie5//
+
+loren="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum placerat felis, nec sollicitudin risus malesuada a. Nunc vel libero vitae magna placerat interdum eu non nibh. Proin at mi tempor, ultrices leo a, tempus tellus. Nam condimentum neque nunc, sit amet sollicitudin felis sodales eget. Nullam eleifend maximus dolor non fermentum."
+print(loren.split(" "))
+
+
+
+//#zadanie8//
+  
+print('{1} {0}'.format('JEDEN', 'DWA'))
+print('{:10}'.format('test'))
+print('{:^10}'.format('test2'))
+print('{:_<10}'.format('test3'))
+print('{:d}'.format(422))
+
+//#zadanie//
+
+
+
+
+
+
+
+
+
+
+
