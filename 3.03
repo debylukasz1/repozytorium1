@@ -1,0 +1,101 @@
+//zadanie 1//
+zdanie=input("Podaj zdanie do zliczenia spacji: ")
+print("Ilość spacji w zdaniu:",zdanie.count(" ")) 
+
+
+//Zadanie 2//https://github.com/debylukasz1/repozytorium1
+import sys
+print("Podaj 2 liczby:")
+liczba1 = int(sys.stdin.readline())
+liczba2 = int(sys.stdin.readline())
+
+print("Wynik mnozenia:")
+sys.stdout.write(str(liczba1*liczba2))
+
+
+//zadanie 3//
+print('Równe: a == b')
+print('Różne: a != b')
+print('Mniejsze: a < b')
+print('Mniejsze bądź równe: a <= b')
+print('Większe: a > b')
+print('Większe bądź równe: a >= b')
+
+
+//zadanie 4//
+a=input("Podaj liczbe: ")
+a=int(a)
+if a >= 0:
+    print("|",a,"| = ",a)
+else:
+    print("|",a,"| = ",-1*a)
+    
+
+//zadanie 5//
+
+liczba1=input("Pierwsza liczba: ")
+liczba1=int(liczba1)
+
+liczba2=input("Druga liczba: ")
+liczba2=int(liczba2)
+
+liczba3=input("Trzecia liczba: ")
+liczba3=int(liczba3)
+
+
+if liczba1>0 and liczba1<=10:
+    if liczba1>liczba2 or liczba2>liczba3:
+        print("liczby",liczba1,liczba2,liczba3," Spelniaja warunki")
+    else:
+        print("liczby",liczba1,liczba2,liczba3,"nie pelniaja warunkow")
+else:
+    print("liczby",liczba1,liczba2,liczba3,"nie spelniaja wszytkich warunkow")
+    
+    
+    
+//zadanie 6//
+for x in range(1,20,1):
+    if x%5==0:
+        print(str(x) + " ")
+        
+        
+        
+//zadanie 7//
+lista=[]
+for x in range(1,11,1):
+    liczba=int(input("Podaj "+str(x)+" liczbe: "))
+    lista.append(liczba)
+for x in lista:
+    print(str(x**2) + " ")
+    
+    
+    
+    
+//zadanie 8//
+lista=[]
+i=0
+while i<6:
+    liczba=input("Podaj liczbę: ")
+    lista.append(int(liczba))
+    i+=1
+print(lista) 
+
+
+//zadanie 9//
+liczba=input("Podaj liczbe wielocyfrowa: ")
+a=int(liczba)
+suma=0
+while (a!=0):
+    suma=suma+(a%10)
+    a=a//10
+
+print("Suma cyfr liczby ",liczba,"wynosi ",suma) 
+
+
+
+//zadanie 10//
+import sys
+for i in range(0, 6, 1):
+    for j in range(0, i+1, 1):
+        sys.stdout.write('A')
+    sys.stdout.write('\n') 
